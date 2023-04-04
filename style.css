@@ -1,3 +1,10 @@
+/*-------------------------------MAIN---------------------------------*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+
 /*-------------------------------HEADER---------------------------------*/
 
 .title{
@@ -11,6 +18,12 @@
     background-color: rgb(228, 228, 228);
     height: 100px;
     width: 100px;
+}
+
+nav{
+    background-color: rgb(228, 228, 228);
+    height: 25px;
+    width: 100%;
 }
 
 nav ul{
@@ -27,14 +40,11 @@ nav ul a{
 
 nav ul a:hover{
     text-decoration: none;
-    color: rgb(0, 8, 152);
+    color: rgb(0, 10, 191);
     text-decoration: underline;
 }
 
-nav{
-    background-color: rgb(228, 228, 228);
-    height: 25px;
-}
+
 
 /*-------------------------------BODY---------------------------------*/
 
