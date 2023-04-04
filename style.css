@@ -1,0 +1,82 @@
+/*-------------------------------HEADER---------------------------------*/
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title img{
+    margin-left: 100px;
+    background-color: rgb(228, 228, 228);
+    height: 100px;
+    width: 100px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul a:hover{
+    text-decoration: none;
+    color: rgb(0, 8, 152);
+    text-decoration: underline;
+}
+
+nav{
+    background-color: rgb(228, 228, 228);
+    height: 25px;
+}
+
+/*-------------------------------BODY---------------------------------*/
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+    align-items: center;
+}
+
+.card p{
+    max-width: 40%;
+}
+
+.card img{
+    background-color: rgb(228, 228, 228);
+    min-width: 30%;
+    height: 250px;
+}
+
+#about-us{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+    align-items: center;
+}
+
+.profile img{
+    min-width: 125px;
+    min-height: 125px;
+    background-color: rgb(228, 228, 228);
+    margin-right: 25px;
+}
+
+.card .description{
+    display: flex;
+    flex-direction: column;
+}
