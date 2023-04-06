@@ -2,21 +2,38 @@
 
 html, body{
     scroll-behavior: smooth !important;
+    background-color: black;
 }
 
 /*-------------------------------HEADER---------------------------------*/
 
-.title{
+header{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin-left: 20%;
+}
+
+.name{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    vertical-align: middle;
 }
 
-.title img{
+.name img{
     margin-left: 100px;
+    margin-top: 15px;
     background-color: rgb(228, 228, 228);
     height: 100px;
     width: 100px;
+}
+
+.name h1{
+    /* margin-left: 100px; */
+    margin-top: 35px;
+    /* background-color: rgb(228, 228, 228); */
+    /* height: 100px;
+    width: 100px; */
 }
 
 nav{
@@ -44,8 +61,17 @@ nav ul a:hover{
 }
 
 
+/*-------------------------------MAIN---------------------------------*/
 
-/*-------------------------------BODY---------------------------------*/
+main{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin-left: 20%;
+}
+
+#space{
+    height: 1px;
+}
 
 .card{
     display: flex;
@@ -53,6 +79,10 @@ nav ul a:hover{
     justify-content: space-around;
     margin: 50px;
     align-items: center;
+}
+
+#card1{
+    margin-top: 0px!important;
 }
 
 .card p{
@@ -65,7 +95,7 @@ nav ul a:hover{
     height: 250px;
 }
 
-#about-us{
+.title{
     margin-top: 25px;
     margin-left: 25px;
 }
