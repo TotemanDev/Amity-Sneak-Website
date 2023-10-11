@@ -6,6 +6,11 @@ body {
     background-color: black;
 }
 
+@font-face {
+    font-family: hgfont;
+    src: url("HeyGorgeous.ttf");
+}
+
 /*-------------------------------HEADER---------------------------------*/
 
 header {
@@ -21,7 +26,7 @@ header {
     vertical-align: middle;
 }
 
-.name img {
+#gameLogo {
     margin-left: 100px;
     margin-top: 15px;
     background-color: rgb(228, 228, 228);
@@ -29,7 +34,8 @@ header {
     width: 100px;
 }
 
-.name h1 {
+#gameTitle {
+    font-family: hgfont;
     /* margin-left: 100px; */
     margin-top: 35px;
     /* background-color: rgb(228, 228, 228); */
@@ -116,11 +122,6 @@ main {
 .section .description {
     display: flex;
     /* flex-direction: column; */
-}
-
-#where {
-    display: flex;
-    margin-left: 25px;
 }
 
 #pfp {
