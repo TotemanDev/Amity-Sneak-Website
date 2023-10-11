@@ -44,7 +44,7 @@ header {
 }
 
 nav {
-    background-color: rgb(228, 228, 228);
+    background-color: rgba(228, 228, 228, 0.9);
     height: 25px;
     width: 100%;
 }
@@ -59,12 +59,15 @@ nav ul {
 nav ul a {
     text-decoration: none;
     color: black;
+    transition: color 0.3s;
+    transition: font-size 0.3s;
 }
 
 nav ul a:hover {
     text-decoration: none;
     color: rgb(0, 10, 191);
     text-decoration: underline;
+    font-size: 17px;
 }
 
 
@@ -96,15 +99,25 @@ main {
     max-width: 40%;
 }
 
-.section img {
+.gamePicture {
     background-color: rgb(228, 228, 228);
     min-width: 30%;
+    height: 200px;
+    transition: height 0.3s;
+}
+
+.gamePicture:hover{
     height: 250px;
 }
 
 .title {
     margin-top: 25px;
     margin-left: 25px;
+}
+
+.stores .p {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .profile {
@@ -116,7 +129,11 @@ main {
     align-items: center;
     background-color: rgba(186, 186, 186, 0.5);
     border-radius: 25px;
-    border: 2px, solid, black;
+    border: 1px solid rgb(129, 129, 129);
+}
+
+.profile:hover {
+    background-color: rgba(186, 186, 186, 0.6);
 }
 
 .section .description {
@@ -124,7 +141,7 @@ main {
     /* flex-direction: column; */
 }
 
-#pfp {
+.pfp {
     background-color: rgb(228, 228, 228);
     height: 100px;
     width: 100px;
