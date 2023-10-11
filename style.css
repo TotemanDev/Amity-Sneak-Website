@@ -1,26 +1,27 @@
 /*-------------------------------MAIN---------------------------------*/
 
-html, body{
+html,
+body {
     scroll-behavior: smooth !important;
     background-color: black;
 }
 
 /*-------------------------------HEADER---------------------------------*/
 
-header{
+header {
     background-color: rgb(255, 255, 255);
     width: 60%;
     margin-left: 20%;
 }
 
-.name{
+.name {
     display: flex;
     flex-direction: row;
     justify-content: center;
     vertical-align: middle;
 }
 
-.name img{
+.name img {
     margin-left: 100px;
     margin-top: 15px;
     background-color: rgb(228, 228, 228);
@@ -28,7 +29,7 @@ header{
     width: 100px;
 }
 
-.name h1{
+.name h1 {
     /* margin-left: 100px; */
     margin-top: 35px;
     /* background-color: rgb(228, 228, 228); */
@@ -36,25 +37,25 @@ header{
     width: 100px; */
 }
 
-nav{
+nav {
     background-color: rgb(228, 228, 228);
     height: 25px;
     width: 100%;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-nav ul a{
+nav ul a {
     text-decoration: none;
     color: black;
 }
 
-nav ul a:hover{
+nav ul a:hover {
     text-decoration: none;
     color: rgb(0, 10, 191);
     text-decoration: underline;
@@ -63,17 +64,17 @@ nav ul a:hover{
 
 /*-------------------------------MAIN---------------------------------*/
 
-main{
+main {
     background-color: rgb(255, 255, 255);
     width: 60%;
     margin-left: 20%;
 }
 
-#space{
+#space {
     height: 1px;
 }
 
-.card{
+.section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -81,46 +82,50 @@ main{
     align-items: center;
 }
 
-#card1{
-    margin-top: 0px!important;
+#section1 {
+    margin-top: 0px !important;
 }
 
-.card p{
+.section p {
     max-width: 40%;
 }
 
-.card img{
+.section img {
     background-color: rgb(228, 228, 228);
     min-width: 30%;
     height: 250px;
 }
 
-.title{
+.title {
     margin-top: 25px;
     margin-left: 25px;
 }
 
-.profile{
+.profile {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 50px;
+    /* justify-content: space-around; */
+    margin: 25px;
+    padding: 25px;
     align-items: center;
+    background-color: rgba(186, 186, 186, 0.5);
+    border-radius: 25px;
+    border: 2px, solid, black;
 }
 
-.profile img{
-    min-width: 125px;
-    min-height: 125px;
-    background-color: rgb(228, 228, 228);
-    margin-right: 25px;
-}
-
-.card .description{
+.section .description {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
-#where{
+#where {
     display: flex;
     margin-left: 25px;
+}
+
+#pfp {
+    background-color: rgb(228, 228, 228);
+    height: 100px;
+    width: 100px;
+    margin-right: 50px;
 }
