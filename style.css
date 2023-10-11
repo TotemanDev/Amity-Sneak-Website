@@ -67,7 +67,7 @@ nav ul a:hover {
     text-decoration: none;
     color: rgb(0, 10, 191);
     text-decoration: underline;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 
@@ -130,10 +130,32 @@ main {
     background-color: rgba(186, 186, 186, 0.5);
     border-radius: 25px;
     border: 1px solid rgb(129, 129, 129);
+    transition: margin 0.3s, height 0.3s;
+    h3{
+        transition: font-size 0.3s;
+    }
+    p{
+        transition: font-size 0.3s;
+    }
 }
 
 .profile:hover {
     background-color: rgba(186, 186, 186, 0.6);
+    margin: 5px;
+
+    .pfp {
+        height: 150px;
+        width: 150px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
 }
 
 .section .description {
@@ -146,4 +168,5 @@ main {
     height: 100px;
     width: 100px;
     margin-right: 50px;
+    transition: height 0.3s, width 0.3s;
 }
