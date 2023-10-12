@@ -26,10 +26,10 @@
                         <li><a href="#">Marketing</a></li>
                     </ul>
                 </li> -->
-                <li><a href="#section1">The Story</a></li>
-                <li><a href="#section2">The Characters</a></li>
-                <li><a href="#section3">The Gameplay</a></li>
-                <li><a href="#section4">Part 4</a></li>
+                <li><a href="#story">The Story</a></li>
+                <li><a href="#characters">The Characters</a></li>
+                <li><a href="#gameplay">The Gameplay</a></li>
+                <li><a href="#part4">Part 4</a></li>
                 <li><a href="#stores">Stores</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -40,7 +40,7 @@
     <main>
         <div id="space"></div>
         <div class="game">
-            <h2 class="title">The Story</h2>
+            <h2 class="title" id="story">The Story</h2>
             <div class="section" id="section1">
                 <p>
                     Here, there will be a short summary of the game's story,
@@ -51,16 +51,30 @@
                     alt="Picture or gif of the game">
             </div>
             <hr>
-            <h2 class="title">The Characters</h2>
+            <h2 class="title" id="characters">The Characters</h2>
+            <div class="section" id="section2">
+                <img class="gamePicture clickable-image" src="https://images2.alphacoders.com/941/thumb-1920-941898.jpg"
+                    alt="Picture or gif of the game" onclick="enlargeImage(this)">
+                <p>
+                    Here, there would be a short description of the first character with a gif of them.
+                </p>
+            </div>
+            <div class="section" id="section2">
+                <p>
+                    Here, there would be a short description of the second character with a gif of them.
+                </p>
+                <img class="gamePicture clickable-image" src="https://images2.alphacoders.com/941/thumb-1920-941898.jpg"
+                    alt="Picture or gif of the game" onclick="enlargeImage(this)">
+            </div>
             <div class="section" id="section2">
                 <img class="gamePicture" src="https://images2.alphacoders.com/941/thumb-1920-941898.jpg"
                     alt="Picture or gif of the game">
                 <p>
-                    Here, there would be a short description of each of the 3 characters with a gif of them.
+                    Here, there would be a short description of the third character with a gif of them.
                 </p>
             </div>
             <hr>
-            <h2 class="title">The Gameplay</h2>
+            <h2 class="title" id="gameplay">The Gameplay</h2>
             <div class="section" id="section3">
                 <p>
                     Here there will be an explanation about what kind of game it is,
@@ -71,7 +85,7 @@
                     alt="Picture or gif of the game">
             </div>
             <hr>
-            <h2 class="title">Part 4</h2>
+            <h2 class="title" id="part4">Part 4</h2>
             <div class="section" id="section4">
                 <img class="gamePicture" src="https://images2.alphacoders.com/941/thumb-1920-941898.jpg"
                     alt="Picture or gif of the game">

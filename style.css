@@ -3,7 +3,7 @@
 html,
 body {
     scroll-behavior: smooth !important;
-    background-color: black;
+    background-color: rgb(93, 93, 93);
 }
 
 @font-face {
@@ -89,6 +89,10 @@ main {
     justify-content: space-around;
     margin: 50px;
     align-items: center;
+    padding: 25px;
+    background-color: rgba(186, 186, 186, 0.5);
+    border-radius: 25px;
+    border: 1px solid rgb(129, 129, 129);
 }
 
 #section1 {
@@ -130,12 +134,13 @@ main {
     background-color: rgba(186, 186, 186, 0.5);
     border-radius: 25px;
     border: 1px solid rgb(129, 129, 129);
-    transition: margin 0.3s, height 0.3s;
+    transition: all 0.75s;
+    /* transition: margin 0.3s, height 0.3s; */
     h3{
-        transition: font-size 0.3s;
+        transition: font-size 0.75s;
     }
     p{
-        transition: font-size 0.3s;
+        transition: font-size 0.75s;
     }
 }
 
@@ -168,5 +173,7 @@ main {
     height: 100px;
     width: 100px;
     margin-right: 50px;
-    transition: height 0.3s, width 0.3s;
+    border-radius: 15px;
+    /* transition: height 0.3s, width 0.3s; */
+    transition: all 0.75s;
 }
