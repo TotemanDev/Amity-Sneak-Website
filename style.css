@@ -108,6 +108,7 @@ main {
     min-width: 30%;
     height: 200px;
     transition: height 0.3s;
+    cursor: zoom-in;
 }
 
 /* .gamePicture:hover{
