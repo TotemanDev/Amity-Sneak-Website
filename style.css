@@ -201,4 +201,5 @@ main {
     left: 50%;
     transform: translate(-50%, -50%) scale(0.1); /* L'effet de zoom initial est de 0.1 (très petit) */
     transition: transform 0.3s ease; /* Transition sur la propriété transform */
+    cursor: zoom-out;
 }
